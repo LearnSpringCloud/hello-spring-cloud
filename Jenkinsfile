@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('pull') {
       steps {
-        sh 'pwd'
+        sh '''pwd
+cd hello-spring-cloud-eureka/
+pwd'''
       }
     }
   }
