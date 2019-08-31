@@ -5,7 +5,8 @@ pipeline {
       steps {
         sh '''pwd
 cd hello-spring-cloud-eureka/
-pwd'''
+pwd
+mvn clean'''
       }
     }
   }
