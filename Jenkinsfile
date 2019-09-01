@@ -6,9 +6,7 @@ pipeline {
         sh '''pwd
 cd hello-spring-cloud-eureka/
 pwd
-cd /var/jenkins_home/apache-maven-3.6.1
-pwd
-mvn
+./usr/local/docker/jenkins/jenkins-data/workspace/apache-maven-3.6.1/bin/mvn
 
 
 '''
