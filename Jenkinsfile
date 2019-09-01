@@ -1,15 +1,15 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:6-alpine'
-      args '-p 3000:3000'
-    }
-
-  }
+  agent any
   stages {
-    stage('build') {
+    stage('pull') {
       steps {
-        sh 'npm install'
+        sh '''pwd
+cd hello-spring-cloud-eureka/
+pwd
+/var/jenkins_home/workspace/apache-maven-3.6.1/bin/mvn clean
+
+
+'''
       }
     }
   }
