@@ -6,7 +6,7 @@
         <groupId>com.wenhao</groupId>
         <artifactId>hello-spring-cloud-dependencies</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>/</relativePath>
+        <relativePath/>
     </parent>
     <artifactId>hello-spring-cloud-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
